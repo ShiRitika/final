@@ -13,3 +13,4 @@ let cars ={
     car2 : "BWD"
 };
 person.function();
+console.log("hello");
