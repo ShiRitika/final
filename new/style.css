@@ -1,0 +1,27 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+background-color: rgb(183, 255, 0);
+font-family: 'Courier New', Courier, monospace;
+font-size: 60px;
+padding-bottom: 10px;
+text-align: center;
+}
+/* access by class name */
+.first {
+    color: rgb(16, 2, 24);
+    padding-top: 10px;
+
+
+}
+
+/*access by ID */
+#your-name {
+    background-color: blue;
+    border: 5px solid #444; 
+}
