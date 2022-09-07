@@ -1,5 +1,5 @@
 //how to use this keyword in method
-/*
+
 let person = {
     firstName : "Ritika",
     lastName : "Tiwari",
@@ -14,4 +14,3 @@ let cars ={
 };
 person.function();
 console.log("hello");
-*/

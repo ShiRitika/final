@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is a Heading</h1>
+    <p class="intro">This is a paragraph</p>
+    <h2> this is my second heading</h2>
+    <p class="=intro"> this is my second paragraph</p>
+
+    <ul>
+        <li id="intro">list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</Ii>
+    </ul>
+    <ul>
+        <li>list a</li>
+        <li>list b</li>
+        <li>list c</li>
+        <li>list d</li>
+    </ul>
+
+    
+    <script>
+        let elm = document.querySelectorAll("p.intro");
+        for(let i = 0 ; i < elm.length ; i++){
+            elm[i].innerHTML = "hello";
+        }
+        console.log(elm);
+    </script>
+    <script>
+        let elm2 = document.getElementById("intro");
+        let prt = elm.parentElement;
+        prt.innerHTML = "hellokiiiS"
+        console.log(prt);
+    </script>
+    <script>
+        console.log("hello how are you");
+        function hello(name, age){
+            console.log(`my name is ${name} i m ${age} years old `);
+        }
+        hello();
+        timeout = setTimeout(hello ,4000 , "Ritika" , 23); //settimeout
+        clearTimeout(timeout);
+
+        x = setInterval(hello , 1000, "Virat", 40);
+        clearInterval(x);
+
+
+
+    </script>
+</body>
+</html>
